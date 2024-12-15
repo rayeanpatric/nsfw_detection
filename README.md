@@ -1,7 +1,7 @@
 # NSFW Video Analysis and Censoring Using NudeNet
 
 ## Overview
-This project leverages the **NudeNet library** to provide a comprehensive solution for analyzing and censoring NSFW (Not Safe For Work) content in videos and images. With the increasing prevalence of user-generated content, ensuring compliance with community guidelines and content policies has become essential. This system enables efficient detection and censorship of explicit material, ensuring content moderation with accuracy and scalability. The process involves resizing videos for optimization, analyzing individual frames for explicit content, and applying targeted censorship using Gaussian blur. Additionally, the system generates detailed reports for further evaluation, making it suitable for both research and practical implementation.
+This project leverages the **NudeNet library** to provide a comprehensive solution for analyzing and censoring NSFW (Not Safe For Work) content in videos and images. With the increasing prevalence of user-generated content, ensuring compliance with community guidelines and content policies has become essential. This system enables efficient detection and censorship of explicit material, ensuring content moderation with accuracy and scalability. The process involves resizing videos for optimization, analyzing individual frames for explicit content, and applying targeted censorship using Black Bar blur. Additionally, the system generates detailed reports for further evaluation, making it suitable for both research and practical implementation.
 
 The repository is organized into three main components: video analysis, CSV generation for detection thresholds, and an image censoring demonstration. Each component highlights a unique functionality of the system and demonstrates the capabilities of the NudeNet library.
 
@@ -68,7 +68,7 @@ Below is an example of a single frame censored using the NudeNet library:
 
 <img src="sample_frame_censored.jpg" alt="Censored Frame" width="500" />
 
-This frame demonstrates the targeted censorship applied to explicit areas while retaining the integrity of the rest of the image. The system uses Gaussian blur for censorship, ensuring the content becomes unrecognizable while maintaining a clean visual output.
+This frame demonstrates the targeted censorship applied to explicit areas while retaining the integrity of the rest of the image. The system uses Black Bar blur for censorship, ensuring the content becomes unrecognizable while maintaining a clean visual output.
 
 ## Contributions
 We welcome contributions from the community! Whether it’s fixing bugs, improving documentation, or adding new features, your input is valuable. Please fork the repository, make your changes, and submit a pull request for review.
