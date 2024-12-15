@@ -65,7 +65,8 @@ pip install nudenet opencv-python pandas moviepy
 ## Example Output
 ### Censored Frame:
 Below is an example of a single frame censored using the NudeNet library:
-<img src="sample_frame_censored.jpg" alt="Censored Frame" width="400" />
+
+<img src="sample_frame_censored.jpg" alt="Censored Frame" width="500" />
 
 This frame demonstrates the targeted censorship applied to explicit areas while retaining the integrity of the rest of the image. The system uses Gaussian blur for censorship, ensuring the content becomes unrecognizable while maintaining a clean visual output.
 
